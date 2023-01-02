@@ -1,13 +1,15 @@
 import MyNavbar from "../../components/Navbar/MyNavbar";
 import styled from "styled-components";
+import Footer from "../../components/Footer/Footer";
 
 function QApage() {
     return (
         <Container>
             <MyNavbar QApage={true} />
             <div style={{ marginTop: '200px' }}>
-                QApage
+                QApages
             </div>
+            <Footer/>
         </Container>
     )
 }

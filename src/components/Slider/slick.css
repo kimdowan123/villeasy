@@ -1,11 +1,12 @@
 /* Slider */
 .slick-slider
-{
+{   
+    margin-top: 100px;
     position: relative;
-
+    
     display: block;
     box-sizing: border-box;
-
+    
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -46,6 +47,7 @@
         -ms-transform: translate3d(0, 0, 0);
          -o-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
+            transition-delay: 10ms;
 }
 
 .slick-track

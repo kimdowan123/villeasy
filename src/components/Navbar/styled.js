@@ -11,6 +11,7 @@ export const Navbar = styled.nav`
     top: 0;
     left: 0;
     right: 0;
+    z-index: 33;
 `;
 
 export const NavSection = styled.div`
@@ -37,7 +38,7 @@ ul {
 }
 `;
 
-export const  Li = styled.li`
+export const Li = styled.li`
     line-height: 105px;
     text-align: center;
     width: 90px;

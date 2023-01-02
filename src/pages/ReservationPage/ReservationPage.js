@@ -1,5 +1,6 @@
 import MyNavbar from "../../components/Navbar/MyNavbar";
 import styled from "styled-components";
+import Footer from "../../components/Footer/Footer";
 
 function ReservationPage() {
     return (
@@ -8,6 +9,7 @@ function ReservationPage() {
             <div style={{ marginTop: '200px' }}>
                 예약페이지
             </div>
+            <Footer/>
         </Container>
     )
 }

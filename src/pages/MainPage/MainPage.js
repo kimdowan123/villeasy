@@ -1,14 +1,17 @@
 import { Container } from "./styled";
 import MySlider from "../../components/Slider/MySlider";
 import MyNavbar from "../../components/Navbar/MyNavbar";
+import Footer from "../../components/Footer/Footer";
+import ProductSection from '../../components/ProductSection/ProductSection';
 
 function MainPage() {
 
     return (
         <Container>
-            <MyNavbar mainPage={true}/>
-            <div style={{ height: '100px' }}></div>
-            <MySlider/>
+            <MyNavbar mainPage={true} />
+            <MySlider />
+            <ProductSection />
+            <Footer />
         </Container>
     )
 }
